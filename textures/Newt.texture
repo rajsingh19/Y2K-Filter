@@ -1,0 +1,42 @@
+{
+  "modelName": "texture",
+  "name": "Newt",
+  "identifier": "texture:4209-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+  "sourceIdentifier": "color_lut_model:4207-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+  "alphaPremultiplicationMode": "none",
+  "assetDataHash": "d9e3732b6f4331e85ce24fca8873a629",
+  "assetLocator": "textures/Newt.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:4211-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+    "textureExportConfig:4213-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+    "textureExportConfig:4215-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+  ],
+  "externalSourceLocator": "sparkarstudio://arlibrary/facebook/color_lut/725506911413504",
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 32,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "d9e3732b6f4331e85ce24fca8873a629",
+      "colorCount": 32446,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 14.979603794478114,
+      "pixelsHigh": 32,
+      "pixelsWide": 1024
+    }
+  ]
+}

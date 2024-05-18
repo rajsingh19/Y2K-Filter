@@ -1,0 +1,245 @@
+{
+  "id": "2d61ffd7649ee4ba89a3b68571e17c2d9",
+  "revision": "3d61ffd7649ee4ba89a3b68571e17c2d9",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 181
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4599-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "producer_patch_model:4577-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "0",
+        "toPatch": "shader_code_patch_model:4597-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "512"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4807-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "producer_patch_model:4803-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "0",
+        "toPatch": "shader_code_patch_model:4597-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "256"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:4809-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "shader_code_patch_model:4597-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "16777216",
+        "toPatch": "consumer_patch_model:4805-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:6633-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "producer_patch_model:4577-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "0",
+        "toPatch": "shader_code_patch_model:6631-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "512"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:6885-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "producer_patch_model:6883-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "0",
+        "toPatch": "shader_code_patch_model:6631-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "256"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:6889-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "shader_code_patch_model:6631-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "16777216",
+        "toPatch": "consumer_patch_model:6887-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:732123-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "shader_code_patch_model:4597-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "16777216",
+        "toPatch": "patch_asset_instance_model:731257-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "1003"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:732125-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "producer_patch_model:732119-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "100",
+        "toPatch": "patch_asset_instance_model:731257-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "1004"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:732127-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPatch": "patch_asset_instance_model:731257-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:732121-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:90-d61ffd76-49ee-4ba8-9a3b-68571e17c2d9",
+        "subpatches": [
+          "consumer_patch_model:4805-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "consumer_patch_model:6887-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "consumer_patch_model:732121-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "patch_asset_instance_model:731257-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "producer_patch_model:4577-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "producer_patch_model:4803-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "producer_patch_model:6883-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "producer_patch_model:732119-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "shader_code_patch_model:4597-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "shader_code_patch_model:6631-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "segmentation",
+        "identifier": "consumer_patch_model:4805-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "defaultMaterial:669-d61ffd76-49ee-4ba8-9a3b-68571e17c2d9",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          212,
+          -220
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "LUT",
+        "identifier": "consumer_patch_model:6887-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "defaultMaterial:6397-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          188,
+          260
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "kira",
+        "identifier": "consumer_patch_model:732121-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "defaultMaterial:731831-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          404,
+          -100
+        ]
+      },
+      {
+        "modelName": "patch_asset_instance_model",
+        "name": "simple kira",
+        "identifier": "patch_asset_instance_model:731257-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "patchAsset": "patch_data_base_model:729835-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "position": [
+          260,
+          20
+        ],
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "string",
+              "v": "texture:732131-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+            }
+          },
+          {
+            "port": "1002",
+            "value": {
+              "t": "double",
+              "v": 20
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Newt",
+        "identifier": "producer_patch_model:4577-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "texture:4209-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "position": [
+          -316,
+          20
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "cameraTexture0",
+        "identifier": "producer_patch_model:4803-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "cameraTexture:903-d61ffd76-49ee-4ba8-9a3b-68571e17c2d9",
+        "position": [
+          -316,
+          -172
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "faceTracker0 Texture",
+        "identifier": "producer_patch_model:6883-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "image_sourced_texture_model:6639-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "position": [
+          -340,
+          260
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "Device",
+        "identifier": "producer_patch_model:732119-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "device:74-d61ffd76-49ee-4ba8-9a3b-68571e17c2d9",
+        "position": [
+          44,
+          44
+        ]
+      },
+      {
+        "modelName": "shader_code_patch_model",
+        "name": "colorLUTShader - main",
+        "identifier": "shader_code_patch_model:4597-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "shader_code_asset_model:4579-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "position": [
+          -148,
+          -148
+        ],
+        "shaderInterface": "shader_interface_model:4581-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "values": [
+          {
+            "port": "768",
+            "value": {
+              "t": "vec2",
+              "v": [
+                32,
+                1
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "shader_code_patch_model",
+        "name": "colorLUTShader - main",
+        "identifier": "shader_code_patch_model:6631-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "object": "shader_code_asset_model:4579-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+        "position": [
+          -124,
+          188
+        ],
+        "shaderInterface": "shader_interface_model:4581-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+      }
+    ]
+  }
+}

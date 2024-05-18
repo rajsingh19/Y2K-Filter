@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "AN7",
+  "identifier": "texture:4017-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "a6193bab11aaeca92e4190423cbd9a20",
+  "assetLocator": "textures/AN7.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 768,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "a6193bab11aaeca92e4190423cbd9a20",
+      "colorCount": 271707,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 16.83127343851555,
+      "pixelsHigh": 768,
+      "pixelsWide": 1024
+    }
+  ]
+}

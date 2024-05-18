@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "AN4",
+  "identifier": "texture:4041-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "6b3212a50c5cc97cb5e85e4531a2b626",
+  "assetLocator": "textures/AN4.jpeg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 288,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 175,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "6b3212a50c5cc97cb5e85e4531a2b626",
+      "colorCount": 40013,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 15.02683369418537,
+      "pixelsHigh": 288,
+      "pixelsWide": 175
+    }
+  ]
+}

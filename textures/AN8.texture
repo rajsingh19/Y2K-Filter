@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "AN8",
+  "identifier": "texture:4021-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "af368c8d1963d75251843583cd781ae4",
+  "assetLocator": "textures/AN8.jpg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 586,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "af368c8d1963d75251843583cd781ae4",
+      "colorCount": 68571,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 14.008133547911143,
+      "pixelsHigh": 1024,
+      "pixelsWide": 586
+    }
+  ]
+}
